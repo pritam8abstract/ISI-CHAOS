@@ -16,7 +16,7 @@
         *,
         *::before,
         *::after {
-            margin: 0;
+            margin:0;
             padding: 0;
             box-sizing: border-box;
         }
@@ -140,11 +140,13 @@
             color: var(--teal);
             text-decoration: none;
             font-weight: 700;
+            margin-left: 20px; 
         }
 
         .nav-links {
             display: flex;
             list-style: none;
+            margin-right: 20px;
         }
 
         .nav-links li {
@@ -312,6 +314,8 @@
 
         .btn {
             display: inline-block;
+            justify-content: center;
+            align-items: center;
             padding: 12px 30px;
             font-family: 'Orbitron', sans-serif;
             font-size: 1rem;
@@ -325,6 +329,7 @@
             position: relative;
             overflow: hidden;
             z-index: 1;
+            text-align: center;
         }
 
         .btn::before {
@@ -540,6 +545,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
+            gap: 5px;
             margin-top: 20px;
         }
 
@@ -807,6 +813,8 @@
             }
 
             .btn {
+                justify-content: center;
+                align-items: center;
                 padding: 10px 25px;
                 font-size: 0.9rem;
             }
@@ -865,7 +873,7 @@
 
         <div class="container">
             <div class="hero-content">
-                <h3 class="hero-subtitle">ISI Bangalore Presents</h3>
+                <h3 class="hero-subtitle">INDIAN STATISTICAL INSTITUTE BANGALORE, presents </h3>
                 <h1 class="hero-title">CHAOS</h1>
                 <div class="hero-year">2025</div>
                 <p class="hero-description">The most anticipated inter-college fest bringing together innovation,
@@ -930,7 +938,7 @@
                         <div class="event-footer">
                             <!--  FIXED:  Added target="_blank" and a more robust check for the PDF. -->
                             <a href="pdfs/fractopedia.pdf" class="btn btn-outline" target="_blank"
-                                onclick="return checkFileExists(this.href);">Download Details</a>
+                                onclick="return checkFileExists(this.href);">Details</a>
                             <a href="#registration" class="btn btn-primary">Register</a>
                             <!-- Added registration button -->
                         </div>
@@ -950,7 +958,7 @@
                             matches for players of all skill levels.</p>
                         <div class="event-footer">
                             <a href="pdfs/checkmate.pdf" class="btn btn-outline" target="_blank"
-                                onclick="return checkFileExists(this.href);">Download Details</a>
+                                onclick="return checkFileExists(this.href);">Details</a>
                             <a href="#registration" class="btn btn-primary">Register</a>
                         </div>
                     </div>
@@ -969,7 +977,7 @@
                             presence.</p>
                         <div class="event-footer">
                             <a href="pdfs/orbitune.pdf" class="btn btn-outline" target="_blank"
-                                onclick="return checkFileExists(this.href);">Download Details</a>
+                                onclick="return checkFileExists(this.href);">Details</a>
                             <a href="#registration" class="btn btn-primary">Register</a>
                         </div>
                     </div>
